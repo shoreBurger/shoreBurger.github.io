@@ -1,0 +1,127 @@
+section.landing {
+  display: table;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  border-bottom: 1px solid #f9b208;
+}
+
+section.landing div.text {
+  width: 50%;
+  text-align: center;
+  color: #f9b208;
+  display: table-cell;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+
+section.landing div.text p {
+  font-size: 2em;
+  margin: 0;
+}
+
+section.landing div.photo {
+  width: 50%;
+  display: table-cell;
+  right: 0;
+}
+
+section.landing div.photo img {
+  height: auto;
+  width: 100%;
+}
+
+section.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0px 80px 0px;
+}
+
+section.location iframe {
+  width: 100%;
+}
+
+section.contact-us a {
+  text-decoration: none;
+}
+
+section.contact-us p {
+  font-size: 1.25em;
+}
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-col div p {
+  padding: 0;
+  color: #f9b208;
+}
+
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #f9b208;
+  font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea {
+  width: -webkit-fill-available;
+  padding: 15px;
+  margin-bottom: 17px;
+  border: 5px solid #f9b208;
+}
+
+.contact-col a {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #f9b208;
+  font-weight: 400;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  padding: 12px 34px;
+  font-size: 15px;
+  background: #f9b208;
+  position: relative;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  transition: border 0.2s ease;
+}
+
+.hero-btn:hover {
+  border: 5px solid #f9b208;
+  box-shadow: 0 0 20px 20px #fdd36e;
+  color: #639df1;
+}
+
+@media screen and (min-width: 601px) {
+  .row {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  form button {
+    width: 100%;
+  }
+}

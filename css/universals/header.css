@@ -1,0 +1,75 @@
+header nav {
+  position: relative;
+  overflow: hidden;
+  background-color: #000000;
+  border-bottom: 1px solid #f9b208;
+}
+
+header nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav div.lr.left a img.logo,
+header nav div.lr.left a img.halal {
+  width: auto;
+  height: 100px;
+  margin: 10px 0 0 0;
+}
+
+header nav div.lr.right div.top {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header nav div.lr.right div.top div.directContact a {
+  color: #000000;
+  transition: filter 0.2s ease;
+  background: #f9b208;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+header nav div.lr.right div.top div.directContact a:hover {
+  filter: drop-shadow(0 0 10px #f9b208) drop-shadow(0 0 20px #fdd36e);
+}
+
+header nav div.lr.right div.top div.socials a svg {
+  height: 50px;
+  width: auto;
+  fill: #f9b208;
+  transition: filter 0.2s ease;
+}
+
+header nav div.lr.right div.top div.socials a svg:hover {
+  filter: drop-shadow(0 0 10px #f9b208) drop-shadow(0 0 20px #f9b208)
+    drop-shadow(0 0 30px #fdd36e);
+}
+
+header nav div.lr.right div.bottom {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+header nav div.lr.right div.bottom a {
+  color: #f9b208;
+  transition: text-shadow 0.2s ease;
+}
+
+header nav div.lr.right div.bottom a:hover {
+  text-shadow: 0 0 10px #f9b208, 0 0 20px #f9b208, 0 0 30px #fdd36e,
+    0 0 40px #fdd36e, 0 0 50px #fdd36e, 0 0 60px #fdd36e, 0 0 70px #fdd36e;
+}

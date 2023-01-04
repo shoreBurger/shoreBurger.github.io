@@ -1,0 +1,212 @@
+section.landing {
+  display: table;
+}
+
+section.landing div.text {
+  width: 50%;
+  text-align: center;
+  color: #f9b208;
+  float: left;
+  display: table-cell;
+  top: 45%;
+  position: absolute;
+}
+
+section.landing div.text p {
+  font-size: 2em;
+  margin: 0;
+}
+
+section.landing div.text h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+section.landing div.text a {
+  color: #000000;
+  transition: filter 0.2s ease;
+  background: #f9b208;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+}
+
+section.landing div.text a:hover {
+  filter: drop-shadow(0 0 10px #f9b208) drop-shadow(0 0 20px #fdd36e);
+}
+
+section.landing div.photo {
+  width: 50%;
+  float: right;
+  display: table-cell;
+}
+
+section.landing div.photo img {
+  height: auto;
+  width: 100%;
+}
+
+section.menu h1 {
+  text-align: center;
+  color: #f9b208;
+  font-size: 3.5em;
+  margin: 0;
+}
+
+section.menu div.content {
+  display: grid;
+  color: #f9b208;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  justify-items: center;
+  height: auto;
+}
+
+section.menu div.content div.menuItem {
+  text-align: center;
+  padding: 0px;
+  margin: 25px 0 0 0;
+  width: 80%;
+  height: auto;
+}
+
+section.menu div.content div.menuItem img {
+  width: auto;
+  height: 45%;
+  max-height: 200px;
+  margin: auto;
+  line-height: 0;
+}
+
+section.whoWeAre h1 {
+  text-align: center;
+  color: #f9b208;
+  font-size: 3.5em;
+  margin: 40px 0 0 0;
+}
+
+section.whoWeAre p {
+  text-align: center;
+  color: #f9b208;
+  font-size: 1.5em;
+  margin: auto;
+  width: 50%;
+}
+
+section.weDeliver {
+  margin: 50px 0 0 0;
+  padding: 50px;
+}
+
+section.weDeliver div.top {
+  height: 400px;
+  color: #f9b208;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.weDeliver div.top div.left h1 {
+  color: #f9b208;
+  font-size: 3.5em;
+  margin: 50px 0 0 0;
+}
+
+section.weDeliver div.top div.left a.orderPlatform,
+section.weDeliver div.top div.left a.orderOnline {
+  color: #000000;
+  transition: filter 0.2s ease;
+  background: #f9b208;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 1.25em;
+  padding: 10px;
+  display: inline-block;
+  margin: 0;
+}
+
+section.weDeliver div.top div.left a.orderPlatform:hover,
+section.weDeliver div.top div.left a.orderOnline:hover {
+  filter: drop-shadow(0 0 10px #f9b208) drop-shadow(0 0 20px #fdd36e);
+}
+
+section.weDeliver div.top div.left p {
+  font-size: 1.35em;
+  width: 85%;
+}
+
+section.weDeliver div.top div.middle {
+  width: 100%;
+}
+
+section.weDeliver div.top div.middle img {
+  max-width: 125%;
+}
+
+section.weDeliver div.top div.right {
+  position: relative;
+}
+
+section.weDeliver div.top div.right img {
+  max-width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+section.weDeliver div.middle {
+  height: calc((100% / 3) * 2);
+  max-height: 300px;
+  position: relative;
+  display: block;
+}
+
+section.weDeliver div.middle img {
+  max-width: calc(50% / 3);
+  position: absolute;
+  left: 0;
+}
+
+section.weDeliver div.middle a {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 15vh;
+  height: 15vh;
+  margin: 0 10px 0 0;
+  font-size: 1.5em;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 250px;
+  line-height: 15vh;
+  padding: 10px;
+  background: #f9b208;
+  text-align: center;
+  transition: filter 0.2s ease;
+  transform: translateY(50%);
+}
+
+section.weDeliver div.middle a:hover {
+  filter: drop-shadow(0 0 10px #f9b208) drop-shadow(0 0 10px #f9b208)
+    drop-shadow(0 0 20px #fdd36e);
+}
+
+section.weDeliver div.bottom {
+  height: calc((100% / 3) + 50px);
+  position: relative;
+}
+
+section.weDeliver div.bottom img {
+  max-width: calc(50% / 3);
+  position: absolute;
+  left: calc(50% / 3);
+}
+
+main p.comingSoon {
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
