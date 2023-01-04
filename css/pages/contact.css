@@ -17,8 +17,9 @@ section.landing div.text {
 }
 
 section.landing div.text p {
-  font-size: 2em;
+  font-size: 4em;
   margin: 0;
+  font-weight: 600;
 }
 
 section.landing div.photo {

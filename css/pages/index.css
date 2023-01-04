@@ -52,7 +52,7 @@ section.landing div.photo img {
 section.menu h1 {
   text-align: center;
   color: #f9b208;
-  font-size: 3.5em;
+  font-size: 4em;
   margin: 0;
 }
 
@@ -73,12 +73,85 @@ section.menu div.content div.menuItem {
   height: auto;
 }
 
+section.menu div.content div.menuItem h2 {
+  font-size: 2em;
+}
+
+section.menu div.content div.menuItem p.price {
+  font-size: 1.25em;
+  font-weight: 800;
+}
+
 section.menu div.content div.menuItem img {
   width: auto;
   height: 45%;
   max-height: 200px;
   margin: auto;
   line-height: 0;
+}
+
+section.menu div.content div.menuItem div.hover {
+  transition: filter 0.2s ease;
+}
+
+section.menu div.content div.menuItem div.hover:hover {
+  filter: drop-shadow(0 0 10px #f9b208) drop-shadow(0 0 20px #fdd36e);
+}
+
+section.menu h2.sides {
+  text-align: center;
+  color: #f9b208;
+  font-size: 3.5em;
+  margin: 25px 0 0 0;
+  text-decoration: underline;
+  transition: filter 0.2s ease;
+}
+
+section.menu h2.sides:hover {
+  filter: drop-shadow(0 0 20px #fdd36e);
+}
+
+section.menu div.sides {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+
+section.menu div.sides div.side {
+  text-align: center;
+  padding: 0px;
+  margin: 25px 0 0 0;
+  width: 80%;
+  height: auto;
+}
+
+section.menu div.sides div.side img {
+  width: auto;
+  height: 50%;
+  max-height: 200px;
+  margin: 0 0 25px 0;
+  line-height: 0;
+}
+
+section.menu div.sides div.side div.hover {
+  transition: filter 0.2s ease;
+}
+
+section.menu div.sides div.side div.hover:hover {
+  filter: drop-shadow(0 0 10px #f9b208) drop-shadow(0 0 20px #fdd36e);
+}
+
+section.menu div.sides div.side h3 {
+  font-size: 2em;
+  margin: 0;
+  color: #f9b208;
+}
+
+section.menu div.sides div.side p {
+  font-size: 1.25em;
+  margin: 0;
+  color: #f9b208;
+  font-weight: 800;
 }
 
 section.whoWeAre h1 {
